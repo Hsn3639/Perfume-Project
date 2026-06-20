@@ -337,7 +337,8 @@
     t += "----------------------------------------\n";
     t += `Total units: ${orderUnits()}\n`;
     t += `References: ${orderLines()}\n`;
-    t += `Order total (excl. VAT & freight): ${money(orderTotal())}\n`;
+    t += `Goods total (excl. VAT): ${money(orderTotal())}\n`;
+    t += `Delivery: calculated separately\n`;
     return t;
   }
 
@@ -390,7 +391,7 @@
             <div><dt>EAN</dt><dd>${p.ean || "—"}</dd></div>
             <div><dt>Availability</dt><dd><span class="dot dot--${p.stockStatus}"></span> ${stockLabel(p)}</dd></div>
           </dl>
-          <div class="pm__price">${money(p.price)} <small>per unit · excl. VAT</small></div>
+          <div class="pm__price">${money(p.price)} <small>per unit · excl. VAT · delivery calculated separately</small></div>
           <div class="pm__actions">
             <div class="qty" data-qty="${p.id}">
               <button data-step="-1">−</button>

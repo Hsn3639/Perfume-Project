@@ -15,7 +15,9 @@ Netlify, Vercel, or any static host.
 - **Wholesale pricing** = supplier cost **× 1.65** (a 65% markup). The raw cost
   prices are never shipped to the browser.
 - **Order rules enforced in the UI:** minimum **7 units per reference** and a
-  **€1,500 minimum order value**, with live validation and a progress bar.
+  **€1,500 minimum goods value**, with live validation and a progress bar.
+- **Delivery is calculated separately** (quoted per order by destination, volume
+  and weight) — the order total shown is for goods only.
 - **3–5 week production lead time** communicated throughout.
 
 ### Tools built for retailers

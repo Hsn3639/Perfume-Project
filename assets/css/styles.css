@@ -592,6 +592,7 @@ details[open] summary.filter-label::after { content: "－"; }
 .summary__row { display: flex; justify-content: space-between; font-size: .9rem; padding: .3rem 0; color: var(--text-soft); }
 .summary__row--total { border-top: 1px solid var(--line); margin-top: .4rem; padding-top: .7rem; font-size: 1.1rem; color: var(--text); }
 .summary__row--total span:last-child { font-family: var(--serif); font-size: 1.35rem; font-weight: 600; }
+.summary__delivery { color: var(--gold-deep); font-style: italic; font-size: .82rem; }
 .min-warning { background: #fbeeea; border: 1px solid #e7c3b8; color: var(--red); font-size: .8rem; padding: .6rem .8rem; border-radius: 8px; margin: 0 0 1rem; }
 .drawer__actions { display: grid; gap: .6rem; }
 .drawer__actions-row { display: grid; grid-template-columns: repeat(3,1fr); gap: .5rem; }

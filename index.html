@@ -150,7 +150,7 @@
     <div class="catalogue__head">
       <div>
         <h2 class="section-title">The Catalogue</h2>
-        <p class="section-sub">Live trade list. Prices are per unit, excluding VAT and freight. Minimum 7 units per reference.</p>
+        <p class="section-sub">Live trade list. Prices are per unit, excluding VAT. Delivery is calculated separately. Minimum 7 units per reference.</p>
       </div>
     </div>
 
@@ -253,8 +253,8 @@
     <h2 class="section-title section-title--center">How wholesale ordering works</h2>
     <div class="steps">
       <div class="step"><span class="step__num">01</span><h3>Build your order</h3><p>Browse the live catalogue and add references to your order sheet. Each line requires a minimum of 7 units.</p></div>
-      <div class="step"><span class="step__num">02</span><h3>Reach the minimum</h3><p>Your order must total at least €1,500 (excl. VAT &amp; freight). The order panel tracks your progress in real time.</p></div>
-      <div class="step"><span class="step__num">03</span><h3>Submit your request</h3><p>Send your order sheet by email or WhatsApp, or download it as a CSV. We confirm stock, totals and freight.</p></div>
+      <div class="step"><span class="step__num">02</span><h3>Reach the minimum</h3><p>Your goods must total at least €1,500 (excl. VAT and delivery). The order panel tracks your progress in real time.</p></div>
+      <div class="step"><span class="step__num">03</span><h3>Submit your request</h3><p>Send your order sheet by WhatsApp or email, or download it as a CSV. We confirm stock, totals and a separate delivery quote.</p></div>
       <div class="step"><span class="step__num">04</span><h3>Production &amp; despatch</h3><p>Once your proforma is settled, your order is assembled and dispatched within a 3–5 week production window.</p></div>
     </div>
   </section>
@@ -304,9 +304,10 @@
       </div>
       <ul class="terms__list">
         <li><strong>Coverage:</strong> we supply trade customers in Malta and Italy only.</li>
-        <li><strong>Minimum order value:</strong> €1,500 net, excluding VAT and delivery.</li>
+        <li><strong>Minimum order value:</strong> €1,500 net of goods, excluding VAT and delivery.</li>
         <li><strong>Minimum per reference:</strong> 7 units per line; reorder in single units thereafter.</li>
-        <li><strong>Pricing:</strong> Prices shown are per-unit wholesale, exclusive of VAT, duties and shipping.</li>
+        <li><strong>Pricing:</strong> Prices shown are per-unit wholesale, exclusive of VAT.</li>
+        <li><strong>Delivery:</strong> Calculated separately and quoted per order based on destination, volume and weight.</li>
         <li><strong>Lead time:</strong> 3–5 weeks production &amp; assembly from confirmed proforma payment.</li>
         <li><strong>Authenticity:</strong> All stock is genuine, sealed and EAN-traceable.</li>
         <li><strong>Stock:</strong> Availability is live but not reserved until your proforma is confirmed.</li>
@@ -321,10 +322,11 @@
     <h2 class="section-title section-title--center">Frequently asked</h2>
     <div class="faq" id="faqList">
       <details class="faq__item"><summary>Who can order, and where do you deliver?</summary><p>We supply registered retailers, pharmacies, concept stores and online resellers based in <strong>Malta and Italy</strong>. A valid business / VAT registration is required to open a trade account.</p></details>
-      <details class="faq__item"><summary>Why is there a 3–5 week lead time?</summary><p>Orders are assembled to demand and quality-checked before despatch. The 3–5 week window covers stock consolidation, documentation and freight booking from confirmed payment.</p></details>
+      <details class="faq__item"><summary>Why is there a 3–5 week lead time?</summary><p>Orders are assembled to demand and quality-checked before despatch. The 3–5 week window covers stock consolidation, documentation and delivery booking from confirmed payment.</p></details>
       <details class="faq__item"><summary>What is the minimum order?</summary><p>€1,500 net per order, with a minimum of 7 units per reference. There is no maximum — volume pricing is available on request for large programmes.</p></details>
       <details class="faq__item"><summary>Are the perfumes authentic?</summary><p>Yes. Every reference is genuine, factory-sealed and carries a verifiable EAN barcode, which is listed beside each product.</p></details>
-      <details class="faq__item"><summary>Do prices include VAT and shipping?</summary><p>No. All prices are per-unit wholesale, exclusive of VAT and delivery. We ship within Malta and Italy; intra-EU VAT rules apply and valid VAT-registered businesses may qualify for reverse-charge treatment subject to documentation.</p></details>
+      <details class="faq__item"><summary>Do prices include VAT and delivery?</summary><p>No. All prices are per-unit wholesale, exclusive of VAT. Delivery is not included — it is calculated separately. Intra-EU VAT rules apply within Malta and Italy, and valid VAT-registered businesses may qualify for reverse-charge treatment subject to documentation.</p></details>
+      <details class="faq__item"><summary>How is delivery charged?</summary><p>Delivery is quoted separately for each order once it's confirmed, based on your destination in Malta or Italy, the order volume and weight. The total you see in the order panel is for goods only; we add the delivery quote to your proforma invoice before payment.</p></details>
       <details class="faq__item"><summary>How do I submit my order?</summary><p>Build your order in the catalogue, then send it by email or WhatsApp directly from the order panel, or download a CSV to attach to your purchase order.</p></details>
     </div>
   </section>
@@ -359,7 +361,7 @@
         <span class="brand__mark">MP</span>
         <div><strong>Melita Profumi</strong><em>Wholesale Fragrance Atelier</em></div>
       </div>
-      <p class="footer__note">Trade-only. Prices exclude VAT &amp; freight. Brand names are the property of their respective owners and are listed for identification of genuine stock only.</p>
+      <p class="footer__note">Trade-only. Prices exclude VAT; delivery is calculated separately. Brand names are the property of their respective owners and are listed for identification of genuine stock only.</p>
       <p class="footer__copy">© <span id="year"></span> Melita Profumi. All rights reserved. · Malta &amp; Italy</p>
     </div>
   </footer>
@@ -390,7 +392,8 @@
       <div class="summary">
         <div class="summary__row"><span>Units</span><span id="sumUnits">0</span></div>
         <div class="summary__row"><span>References</span><span id="sumLines">0</span></div>
-        <div class="summary__row summary__row--total"><span>Order total (excl. VAT)</span><span id="sumTotal">€0.00</span></div>
+        <div class="summary__row"><span>Delivery</span><span class="summary__delivery">Calculated separately</span></div>
+        <div class="summary__row summary__row--total"><span>Goods total (excl. VAT &amp; delivery)</span><span id="sumTotal">€0.00</span></div>
       </div>
       <p class="min-warning" id="minWarning" hidden></p>
       <div class="drawer__actions">
