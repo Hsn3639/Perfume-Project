@@ -105,6 +105,17 @@
     return "In stock";
   }
 
+  // Product photo, keyed by EAN (e.g. images/6290171002338.jpg). Falls back to
+  // the monogram tile beneath it if the file is missing — on error the <img>
+  // removes itself, revealing the tile. An explicit p.image overrides the path.
+  const IMG_BASE = (CFG.imageBase || "images/");
+  function imgTag(p, cls) {
+    const src = p.image || (p.ean ? `${IMG_BASE}${p.ean}.jpg` : "");
+    if (!src) return "";
+    const alt = p.title.replace(/"/g, "&quot;");
+    return `<img class="${cls}" src="${src}" alt="${alt}" loading="lazy" onerror="this.remove()" />`;
+  }
+
   function cardHTML(p) {
     const inOrder = order[p.id] ? " in-order" : "";
     const qty = order[p.id] || MIN_UNITS;
@@ -117,6 +128,7 @@
           ${typeBadge}
         </div>
         <div class="card__bottle"><span class="mono">${initials(p)}</span><span class="sz">${p.size ? p.size + " ml" : p.concentration}</span></div>
+        ${imgTag(p, "card__img")}
         <span class="card__stock"><span class="dot dot--${p.stockStatus}"></span>${stockLabel(p)}</span>
       </div>
       <div class="card__body">
@@ -429,7 +441,7 @@
     $("#productModalPanel").innerHTML = `
       <button class="icon-btn modal__close" id="pmClose" aria-label="Close">✕</button>
       <div class="pm">
-        <div class="pm__media"><div class="pm__bottle"><span class="mono">${initials(p)}</span><span class="sz">${p.size ? p.size + " ml" : p.concentration}</span></div></div>
+        <div class="pm__media"><div class="pm__bottle"><span class="mono">${initials(p)}</span><span class="sz">${p.size ? p.size + " ml" : p.concentration}</span></div>${imgTag(p, "pm__img")}</div>
         <div class="pm__body">
           <div class="pm__brand">${p.brand}</div>
           <h3 class="pm__title">${p.title.replace(p.brand, "").trim() || p.title}</h3>
