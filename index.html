@@ -39,6 +39,7 @@
       <nav class="nav" aria-label="Primary">
         <a href="#services">Our services</a>
         <a href="#planner">Plan order</a>
+        <a href="#strategy">Profit strategy</a>
         <a href="#catalogue">Catalogue</a>
         <a href="#guide">Get started</a>
         <a href="#terms">Trade terms</a>
@@ -142,6 +143,68 @@
       <p class="planner__hint" id="budgetHint"></p>
 
       <div class="packs" id="packsOutput"></div>
+    </div>
+  </section>
+
+  <!-- Pricing & Profit Strategy -->
+  <section id="strategy" class="band band--dark">
+    <div class="strategy">
+      <div class="strategy__head">
+        <p class="hero__eyebrow" style="color:var(--gold)">The blended-margin play</p>
+        <h2 class="section-title">Turn one low average cost into many ways to profit.</h2>
+        <p class="section-sub" style="color:var(--text-invert-soft);max-width:760px">
+          When you buy a mixed basket, your real cost isn't the price of any single bottle — it's the
+          <strong>average across every unit</strong>. Spread your total cost evenly and that average drops low,
+          which hands you the freedom to price simply, double your money, and control your margin line by line.
+        </p>
+      </div>
+
+      <div class="strategy__grid">
+        <!-- Calculator -->
+        <div class="strat-calc">
+          <div class="strat-calc__inputs">
+            <label>Total goods cost (€)
+              <input type="number" id="stratCost" class="input" value="1500" min="0" step="50" />
+            </label>
+            <label>Total units (bottles)
+              <input type="number" id="stratUnits" class="input" value="100" min="1" step="1" />
+            </label>
+            <button class="ghost-btn" id="stratUseOrder">Use my current order</button>
+          </div>
+
+          <div class="strat-blended">
+            <span class="strat-blended__label">Your blended cost per bottle</span>
+            <span class="strat-blended__value" id="stratBlended">€15.00</span>
+            <span class="strat-blended__note" id="stratBlendedNote"></span>
+          </div>
+
+          <div class="strat-price">
+            <span class="filter-label" style="color:var(--text-invert-soft)">Set your shelf price — or pick a strategy</span>
+            <div class="strat-multipliers" id="stratMultipliers">
+              <button class="chip" data-mult="2">Double ×2</button>
+              <button class="chip" data-mult="2.5">×2.5</button>
+              <button class="chip" data-mult="3">Triple ×3</button>
+            </div>
+            <label class="strat-price__input">Retail price per bottle (€)
+              <input type="number" id="stratRetail" class="input" value="30" min="0" step="1" />
+            </label>
+          </div>
+
+          <div class="strat-results" id="stratResults"></div>
+          <p class="strat-disclaimer">Illustrative only. Figures exclude VAT, delivery and running costs, and assume full sell-through. Not financial advice.</p>
+        </div>
+
+        <!-- Strategies -->
+        <div class="strat-plays">
+          <h3>Real strategies retailers use</h3>
+          <div class="strat-play"><span class="strat-play__tag">Keystone pricing</span><p>The classic "double your money": set retail at <strong>2× cost</strong> (a 100% markup / 50% margin). Simple, fast, and the baseline most retail runs on.</p></div>
+          <div class="strat-play"><span class="strat-play__tag">Blended / portfolio margin</span><p>Price off your <strong>average</strong> cost, not each bottle. Cheap lines subsidise premium ones, so a single clean shelf price still profits across the whole basket.</p></div>
+          <div class="strat-play"><span class="strat-play__tag">Good–Better–Best laddering</span><p>Sell the same stock at <strong>three price points</strong> (entry, core, premium). You capture budget and big spenders and lift your average selling price.</p></div>
+          <div class="strat-play"><span class="strat-play__tag">Loss leaders &amp; anchors</span><p>Price a few recognisable names low to <strong>pull traffic</strong>; let high-margin oriental brands and a premium "anchor" do the earning.</p></div>
+          <div class="strat-play"><span class="strat-play__tag">Inventory turnover</span><p>A low average cost sells faster. <strong>Reinvest each cycle's profit</strong> into the next order — turning stock 3–4× a year compounds returns far past a single markup.</p></div>
+          <div class="strat-play"><span class="strat-play__tag">Bundling</span><p>Group bottles into gift sets or "build-your-3" offers to raise <strong>average order value</strong> and move slower lines at a healthy blended margin.</p></div>
+        </div>
+      </div>
     </div>
   </section>
 

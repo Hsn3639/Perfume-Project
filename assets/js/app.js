@@ -612,6 +612,50 @@
     $("#mcTotal").textContent = money(profit * units);
   }
 
+  /* ---------- Profit strategy (blended margin) ---------- */
+  function calcStrategy() {
+    const cost = Math.max(0, +$("#stratCost").value || 0);
+    const units = Math.max(1, Math.round(+$("#stratUnits").value || 1));
+    const retail = Math.max(0, +$("#stratRetail").value || 0);
+    const blended = cost / units;
+
+    $("#stratBlended").textContent = money(blended);
+    const multiple = blended > 0 ? retail / blended : 0;
+    $("#stratBlendedNote").textContent =
+      `${units} bottles · ${money(cost)} total — that's the real cost you price against.`;
+
+    const revenue = retail * units;
+    const profit = revenue - cost;
+    const margin = revenue > 0 ? (profit / revenue) * 100 : 0;
+    const markup = cost > 0 ? (profit / cost) * 100 : 0;
+
+    // Highlight the active strategy chip matching the current multiple.
+    $$("#stratMultipliers .chip").forEach((c) =>
+      c.classList.toggle("is-active", Math.abs(+c.dataset.mult - multiple) < 0.06));
+
+    const cards = [
+      { label: "Revenue", value: money(revenue), sub: `${money(retail)} × ${units}` },
+      { label: "Gross profit", value: money(profit), sub: `${money(retail - blended)} / bottle`, big: true },
+      { label: "Margin", value: margin.toFixed(0) + "%", sub: "of each sale" },
+      { label: "Markup", value: markup.toFixed(0) + "%", sub: "on cost" },
+      { label: "Money multiple", value: "×" + (multiple || 0).toFixed(2), sub: "revenue ÷ cost", big: true },
+    ];
+    $("#stratResults").innerHTML = cards.map((c) =>
+      `<div class="strat-result${c.big ? " strat-result--big" : ""}">
+        <span class="strat-result__label">${c.label}</span>
+        <strong class="strat-result__value">${c.value}</strong>
+        <span class="strat-result__sub">${c.sub}</span>
+      </div>`).join("");
+  }
+
+  function setStrategyMultiplier(mult) {
+    const cost = Math.max(0, +$("#stratCost").value || 0);
+    const units = Math.max(1, Math.round(+$("#stratUnits").value || 1));
+    const blended = cost / units;
+    $("#stratRetail").value = Math.max(1, Math.round(blended * mult));
+    calcStrategy();
+  }
+
   /* ---------- Toast ---------- */
   let toastTimer;
   function toast(msg) {
@@ -782,6 +826,21 @@
     // margin calculator
     ["#mcCost", "#mcRetail", "#mcUnits"].forEach((s) => $(s).addEventListener("input", calcMargin));
 
+    // profit strategy (blended margin)
+    ["#stratCost", "#stratUnits", "#stratRetail"].forEach((s) => $(s).addEventListener("input", calcStrategy));
+    $("#stratMultipliers").addEventListener("click", (e) => {
+      const btn = e.target.closest("[data-mult]");
+      if (btn) setStrategyMultiplier(+btn.dataset.mult);
+    });
+    $("#stratUseOrder").addEventListener("click", () => {
+      const units = orderUnits(), total = orderTotal();
+      if (!units) { toast("Your order is empty — add references first"); return; }
+      $("#stratCost").value = total.toFixed(2);
+      $("#stratUnits").value = units;
+      setStrategyMultiplier(2);
+      $("#strategy").scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+
     // contact links
     $("#contactWhatsapp").href = `https://wa.me/${TRADE_WHATSAPP}`;
     $("#contactWhatsapp").target = "_blank";
@@ -816,6 +875,7 @@
     renderCart();
     buildPacks();
     calcMargin();
+    setStrategyMultiplier(2);
   }
 
   document.addEventListener("DOMContentLoaded", init);
