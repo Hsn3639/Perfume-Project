@@ -401,6 +401,8 @@
     t += `References: ${orderLines()}\n`;
     t += `Goods total (excl. VAT): ${money(orderTotal())}\n`;
     t += `Delivery: calculated separately\n`;
+    const attach = $("#attachPlan");
+    if (attach && attach.checked) t += buildStrategyText();
     return t;
   }
 
@@ -646,6 +648,53 @@
         <strong class="strat-result__value">${c.value}</strong>
         <span class="strat-result__sub">${c.sub}</span>
       </div>`).join("");
+
+    updateStrategySummary();
+  }
+
+  // One-line story that ties blended cost → shelf price → compounding.
+  function updateStrategySummary() {
+    const el = $("#stratSummary");
+    if (!el) return;
+    const cost = Math.max(0, +$("#stratCost").value || 0);
+    const units = Math.max(1, Math.round(+$("#stratUnits").value || 1));
+    const retail = Math.max(0, +$("#stratRetail").value || 0);
+    const blended = cost / units;
+    const profit = (retail - blended) * units;
+    const mult = blended > 0 ? retail / blended : 0;
+    const turns = Math.max(1, Math.round(+($("#cmpTurns") ? $("#cmpTurns").value : 4) || 4));
+    // Year-end compounding of THIS order's profit at the chosen multiple.
+    let cap = cost, yearProfit = 0;
+    for (let i = 0; i < turns; i++) { const p = cap * (mult - 1); yearProfit += p; cap += p; }
+    el.innerHTML =
+      `Average <b>${money(blended)}</b>/bottle · sell at <b>${money(retail)}</b> (×${mult.toFixed(2)}) → ` +
+      `<b>${money(profit)}</b> profit per order. Reinvested <b>${turns}×</b>/year → <b>${money(yearProfit)}</b> profit.`;
+  }
+
+  // Plain-text pricing & profit plan, appended to an order on request.
+  function buildStrategyText() {
+    const cost = Math.max(0, +$("#stratCost").value || 0);
+    const units = Math.max(1, Math.round(+$("#stratUnits").value || 1));
+    const retail = Math.max(0, +$("#stratRetail").value || 0);
+    const blended = cost / units;
+    const profit = (retail - blended) * units;
+    const margin = retail > 0 ? ((retail - blended) / retail) * 100 : 0;
+    const mult = blended > 0 ? retail / blended : 0;
+
+    const start = Math.max(0, +$("#cmpStart").value || 0);
+    const cMult = +$("#cmpMult").value || 2;
+    const turns = Math.max(1, Math.round(+$("#cmpTurns").value || 1));
+    const reinvest = (+$("#cmpReinvest").value || 0) / 100;
+    let cap = start, totalProfit = 0;
+    for (let i = 0; i < turns; i++) { const p = cap * (cMult - 1); totalProfit += p; cap += p * reinvest; }
+    const yearEnd = start + totalProfit;
+
+    let t = "\n— MY PRICING & PROFIT PLAN (indicative) —\n";
+    t += `Blended cost: ${money(blended)}/bottle over ${units} units (${money(cost)}).\n`;
+    t += `Planned shelf price: ${money(retail)} (×${mult.toFixed(2)}, ${margin.toFixed(0)}% margin).\n`;
+    t += `Profit at full sell-through: ${money(profit)}.\n`;
+    t += `Turnover plan: ${money(start)} start, ×${cMult.toFixed(1)}, ${turns} turns/yr, ${Math.round(reinvest * 100)}% reinvested → ${money(yearEnd)} year-end position.\n`;
+    return t;
   }
 
   function setStrategyMultiplier(mult) {
@@ -701,6 +750,8 @@
       `<thead><tr><th>Turn</th><th>Capital in</th><th>Profit</th><th>Reinvested</th></tr></thead>
        <tbody>${rows.map((r) =>
          `<tr><td>${r.turn}</td><td>${money(r.capital)}</td><td>${money(r.profit)}</td><td>${money(r.reinv)}</td></tr>`).join("")}</tbody>`;
+
+    updateStrategySummary();
   }
 
   /* ---------- Toast ---------- */
