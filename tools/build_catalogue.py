@@ -93,6 +93,31 @@ def stock(avail):
     return n, False, "high"
 
 
+def units(t):
+    """Number of items contained in a pack (sets / vial packs), else 1."""
+    m = re.search(r"[xX]\s*(\d+)\s*units?", t)
+    if m:
+        return int(m.group(1))
+    m = re.search(r"(\d+)\s*units?", t.lower())
+    if m:
+        return int(m.group(1))
+    return 1
+
+
+def packaging(title, sz, n, kind):
+    """A human-readable packaging description."""
+    ml = f"{sz} ml" if sz else ""
+    if kind == "Set":
+        return f"Gift / discovery set · {n} × {ml}".rstrip(" ·") if n > 1 and sz else "Gift / discovery set"
+    if kind == "Vial":
+        return f"{n} × {ml} vials" if n > 1 and sz else (f"{ml} vial" if sz else "Vial")
+    if kind == "Tester":
+        return f"Tester unit · {ml}".rstrip(" ·") if sz else "Tester unit"
+    if kind == "Body & Mist":
+        return ml or "Body / mist"
+    return f"{ml} bottle" if sz else "Single unit"
+
+
 def main():
     if len(sys.argv) < 2:
         sys.exit("Usage: python3 tools/build_catalogue.py <price_list.xlsx>")
@@ -107,13 +132,16 @@ def main():
         qty, plus, status = stock((r.get("D") or "").strip())
         try: cost = float((r.get("E") or "0").strip())
         except ValueError: cost = 0.0
+        sz, kind = size(title), ptype(title)
+        n = units(title)
         products.append({
             "id": pid, "brand": brand, "title": title,
             "ean": (r.get("C") or "").strip(),
             "price": round(cost * MARKUP, 2),
             "stock": qty, "stockPlus": plus, "stockStatus": status,
             "gender": gender(title), "concentration": conc(title),
-            "size": size(title), "type": ptype(title),
+            "size": sz, "type": kind, "units": n,
+            "packaging": packaging(title, sz, n, kind),
         })
 
     os.makedirs(os.path.join(ROOT, "data"), exist_ok=True)

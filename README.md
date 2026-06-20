@@ -24,6 +24,14 @@ Netlify, Vercel, or any static host.
 - **Catalogue** with search (name / brand / EAN), filters (gender,
   concentration, brand, size, price range, in-stock-only), sorting, grid/list
   views, product detail modal and lazy "load more".
+- **Shop by brand** — a directory of all 25 houses (with reference counts) that
+  filters the catalogue to a single brand, plus a **Group by brand** toggle that
+  lays every product out under its brand heading so all brands can be seen
+  separately or together.
+- **Packaging & sizes on every product** — size (ml), concentration, format
+  (bottle / tester / set / vial / mist), units per pack, a human packaging label
+  (e.g. "Gift / discovery set · 5 × 2 ml", "24 × 3 ml vials") and the EAN, shown
+  on cards and in full in the product detail modal.
 - **Order sheet / cart** with quantity steppers, line totals, persistent state
   (localStorage), and export by **email**, **WhatsApp**, **CSV download** or
   **print**.

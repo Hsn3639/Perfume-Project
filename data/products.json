@@ -11,7 +11,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 2,
@@ -25,7 +27,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 3,
@@ -39,7 +43,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 2,
-  "type": "Set"
+  "type": "Set",
+  "units": 5,
+  "packaging": "Gift / discovery set · 5 × 2 ml"
  },
  {
   "id": 4,
@@ -53,7 +59,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 5,
@@ -67,7 +75,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 6,
@@ -81,7 +91,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 2,
-  "type": "Set"
+  "type": "Set",
+  "units": 5,
+  "packaging": "Gift / discovery set · 5 × 2 ml"
  },
  {
   "id": 7,
@@ -95,7 +107,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 80,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "80 ml bottle"
  },
  {
   "id": 8,
@@ -109,7 +123,9 @@
   "gender": "Unisex",
   "concentration": "Extrait de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 9,
@@ -123,7 +139,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 10,
@@ -137,7 +155,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 11,
@@ -151,7 +171,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 12,
@@ -165,7 +187,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 13,
@@ -179,7 +203,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 14,
@@ -193,7 +219,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 90,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "90 ml bottle"
  },
  {
   "id": 15,
@@ -207,7 +235,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 900,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "900 ml bottle"
  },
  {
   "id": 16,
@@ -221,7 +251,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 17,
@@ -235,7 +267,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Tester"
+  "type": "Tester",
+  "units": 1,
+  "packaging": "Tester unit · 100 ml"
  },
  {
   "id": 18,
@@ -249,7 +283,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 19,
@@ -263,7 +299,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Tester"
+  "type": "Tester",
+  "units": 1,
+  "packaging": "Tester unit · 100 ml"
  },
  {
   "id": 20,
@@ -277,7 +315,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 21,
@@ -291,7 +331,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Tester"
+  "type": "Tester",
+  "units": 1,
+  "packaging": "Tester unit · 100 ml"
  },
  {
   "id": 22,
@@ -305,7 +347,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 23,
@@ -319,7 +363,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 24,
@@ -333,7 +379,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 25,
@@ -347,7 +395,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 26,
@@ -361,7 +411,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 27,
@@ -375,7 +427,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 28,
@@ -389,7 +443,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 29,
@@ -403,7 +459,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Tester"
+  "type": "Tester",
+  "units": 1,
+  "packaging": "Tester unit · 100 ml"
  },
  {
   "id": 30,
@@ -417,7 +475,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 3,
-  "type": "Vial"
+  "type": "Vial",
+  "units": 24,
+  "packaging": "24 × 3 ml vials"
  },
  {
   "id": 31,
@@ -431,7 +491,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 32,
@@ -445,7 +507,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Tester"
+  "type": "Tester",
+  "units": 1,
+  "packaging": "Tester unit · 100 ml"
  },
  {
   "id": 33,
@@ -459,7 +523,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 3,
-  "type": "Vial"
+  "type": "Vial",
+  "units": 24,
+  "packaging": "24 × 3 ml vials"
  },
  {
   "id": 34,
@@ -473,7 +539,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 35,
@@ -487,7 +555,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 36,
@@ -501,7 +571,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Tester"
+  "type": "Tester",
+  "units": 1,
+  "packaging": "Tester unit · 100 ml"
  },
  {
   "id": 37,
@@ -515,7 +587,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 80,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "80 ml bottle"
  },
  {
   "id": 38,
@@ -529,7 +603,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 80,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "80 ml bottle"
  },
  {
   "id": 39,
@@ -543,7 +619,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 80,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "80 ml bottle"
  },
  {
   "id": 40,
@@ -557,7 +635,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 80,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "80 ml bottle"
  },
  {
   "id": 41,
@@ -571,7 +651,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 42,
@@ -585,7 +667,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Tester"
+  "type": "Tester",
+  "units": 1,
+  "packaging": "Tester unit · 100 ml"
  },
  {
   "id": 43,
@@ -599,7 +683,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 44,
@@ -613,7 +699,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Tester"
+  "type": "Tester",
+  "units": 1,
+  "packaging": "Tester unit · 100 ml"
  },
  {
   "id": 45,
@@ -627,7 +715,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 46,
@@ -641,7 +731,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Tester"
+  "type": "Tester",
+  "units": 1,
+  "packaging": "Tester unit · 100 ml"
  },
  {
   "id": 47,
@@ -655,7 +747,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 48,
@@ -669,7 +763,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 49,
@@ -683,7 +779,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 50,
@@ -697,7 +795,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 51,
@@ -711,7 +811,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 52,
@@ -725,7 +827,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 53,
@@ -739,7 +843,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 54,
@@ -753,7 +859,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 55,
@@ -767,7 +875,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 56,
@@ -781,7 +891,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 57,
@@ -795,7 +907,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 58,
@@ -809,7 +923,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 59,
@@ -823,7 +939,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 60,
@@ -837,7 +955,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 61,
@@ -851,7 +971,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 62,
@@ -865,7 +987,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 63,
@@ -879,7 +1003,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 64,
@@ -893,7 +1019,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 65,
@@ -907,7 +1035,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 66,
@@ -921,7 +1051,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 75,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "75 ml bottle"
  },
  {
   "id": 67,
@@ -935,7 +1067,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 105,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "105 ml bottle"
  },
  {
   "id": 68,
@@ -949,7 +1083,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 105,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "105 ml bottle"
  },
  {
   "id": 69,
@@ -963,7 +1099,9 @@
   "gender": "Men",
   "concentration": "Eau de Toilette",
   "size": 105,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "105 ml bottle"
  },
  {
   "id": 70,
@@ -977,7 +1115,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 71,
@@ -991,7 +1131,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 72,
@@ -1005,7 +1147,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 105,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "105 ml bottle"
  },
  {
   "id": 73,
@@ -1019,7 +1163,9 @@
   "gender": "Unisex",
   "concentration": "Extrait de Parfum",
   "size": 55,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "55 ml bottle"
  },
  {
   "id": 74,
@@ -1033,7 +1179,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 105,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "105 ml bottle"
  },
  {
   "id": 75,
@@ -1047,7 +1195,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 76,
@@ -1061,7 +1211,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 77,
@@ -1075,7 +1227,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 78,
@@ -1089,7 +1243,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 79,
@@ -1103,7 +1259,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 80,
@@ -1117,7 +1275,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 81,
@@ -1131,7 +1291,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 82,
@@ -1145,7 +1307,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 83,
@@ -1159,7 +1323,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 84,
@@ -1173,7 +1339,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 85,
@@ -1187,7 +1355,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 86,
@@ -1201,7 +1371,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 87,
@@ -1215,7 +1387,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 88,
@@ -1229,7 +1403,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 89,
@@ -1243,7 +1419,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 90,
@@ -1257,7 +1435,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 91,
@@ -1271,7 +1451,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 92,
@@ -1285,7 +1467,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 93,
@@ -1299,7 +1483,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 94,
@@ -1313,7 +1499,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 95,
@@ -1327,7 +1515,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 96,
@@ -1341,7 +1531,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 97,
@@ -1355,7 +1547,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 80,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "80 ml bottle"
  },
  {
   "id": 98,
@@ -1369,7 +1563,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 80,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "80 ml bottle"
  },
  {
   "id": 99,
@@ -1383,7 +1579,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 80,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "80 ml bottle"
  },
  {
   "id": 100,
@@ -1397,7 +1595,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 75,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "75 ml bottle"
  },
  {
   "id": 101,
@@ -1411,7 +1611,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 75,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "75 ml bottle"
  },
  {
   "id": 102,
@@ -1425,7 +1627,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 50,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "50 ml bottle"
  },
  {
   "id": 103,
@@ -1439,7 +1643,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 104,
@@ -1453,7 +1659,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 80,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "80 ml bottle"
  },
  {
   "id": 105,
@@ -1467,7 +1675,9 @@
   "gender": "Unisex",
   "concentration": "Extrait de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 106,
@@ -1481,7 +1691,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 107,
@@ -1495,7 +1707,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 108,
@@ -1509,7 +1723,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 109,
@@ -1523,7 +1739,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 110,
@@ -1537,7 +1755,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 90,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "90 ml bottle"
  },
  {
   "id": 111,
@@ -1551,7 +1771,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 150,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "150 ml bottle"
  },
  {
   "id": 112,
@@ -1565,7 +1787,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 113,
@@ -1579,7 +1803,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 114,
@@ -1593,7 +1819,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 115,
@@ -1607,7 +1835,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 116,
@@ -1621,7 +1851,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 117,
@@ -1635,7 +1867,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 118,
@@ -1649,7 +1883,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 80,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "80 ml bottle"
  },
  {
   "id": 119,
@@ -1663,7 +1899,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 150,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "150 ml bottle"
  },
  {
   "id": 120,
@@ -1677,7 +1915,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 121,
@@ -1691,7 +1931,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 80,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "80 ml bottle"
  },
  {
   "id": 122,
@@ -1705,7 +1947,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 80,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "80 ml bottle"
  },
  {
   "id": 123,
@@ -1719,7 +1963,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 80,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "80 ml bottle"
  },
  {
   "id": 124,
@@ -1733,7 +1979,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 125,
@@ -1747,7 +1995,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 126,
@@ -1761,7 +2011,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 127,
@@ -1775,7 +2027,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 128,
@@ -1789,7 +2043,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 129,
@@ -1803,7 +2059,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 130,
@@ -1817,7 +2075,9 @@
   "gender": "Unisex",
   "concentration": "Extrait de Parfum",
   "size": 80,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "80 ml bottle"
  },
  {
   "id": 131,
@@ -1831,7 +2091,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 132,
@@ -1845,7 +2107,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 133,
@@ -1859,7 +2123,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 134,
@@ -1873,7 +2139,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 135,
@@ -1887,7 +2155,9 @@
   "gender": "Unisex",
   "concentration": "Extrait de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 136,
@@ -1901,7 +2171,9 @@
   "gender": "Unisex",
   "concentration": "Extrait de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 137,
@@ -1915,7 +2187,9 @@
   "gender": "Unisex",
   "concentration": "Extrait de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 138,
@@ -1929,7 +2203,9 @@
   "gender": "Unisex",
   "concentration": "Extrait de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 139,
@@ -1943,7 +2219,9 @@
   "gender": "Unisex",
   "concentration": "Extrait de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 140,
@@ -1957,7 +2235,9 @@
   "gender": "Unisex",
   "concentration": "Extrait de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 141,
@@ -1971,7 +2251,9 @@
   "gender": "Unisex",
   "concentration": "Extrait de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 142,
@@ -1985,7 +2267,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 143,
@@ -1999,7 +2283,9 @@
   "gender": "Unisex",
   "concentration": "Extrait de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 144,
@@ -2013,7 +2299,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 145,
@@ -2027,7 +2315,9 @@
   "gender": "Unisex",
   "concentration": "Extrait de Parfum",
   "size": 80,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "80 ml bottle"
  },
  {
   "id": 146,
@@ -2041,7 +2331,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 80,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "80 ml bottle"
  },
  {
   "id": 147,
@@ -2055,7 +2347,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 80,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "80 ml bottle"
  },
  {
   "id": 148,
@@ -2069,7 +2363,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 149,
@@ -2083,7 +2379,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 150,
@@ -2097,7 +2395,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 151,
@@ -2111,7 +2411,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Set"
+  "type": "Set",
+  "units": 1,
+  "packaging": "Gift / discovery set"
  },
  {
   "id": 152,
@@ -2125,7 +2427,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 153,
@@ -2139,7 +2443,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 154,
@@ -2153,7 +2459,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 155,
@@ -2167,7 +2475,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 156,
@@ -2181,7 +2491,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 80,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "80 ml bottle"
  },
  {
   "id": 157,
@@ -2195,7 +2507,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 158,
@@ -2209,7 +2523,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 90,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "90 ml bottle"
  },
  {
   "id": 159,
@@ -2223,7 +2539,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 90,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "90 ml bottle"
  },
  {
   "id": 160,
@@ -2237,7 +2555,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 90,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "90 ml bottle"
  },
  {
   "id": 161,
@@ -2251,7 +2571,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 90,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "90 ml bottle"
  },
  {
   "id": 162,
@@ -2265,7 +2587,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 90,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "90 ml bottle"
  },
  {
   "id": 163,
@@ -2279,7 +2603,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 90,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "90 ml bottle"
  },
  {
   "id": 164,
@@ -2293,7 +2619,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 90,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "90 ml bottle"
  },
  {
   "id": 165,
@@ -2307,7 +2635,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 90,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "90 ml bottle"
  },
  {
   "id": 166,
@@ -2321,7 +2651,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 90,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "90 ml bottle"
  },
  {
   "id": 167,
@@ -2335,7 +2667,9 @@
   "gender": "Women",
   "concentration": "Extrait de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 168,
@@ -2349,7 +2683,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 169,
@@ -2363,7 +2699,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 170,
@@ -2377,7 +2715,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 171,
@@ -2391,7 +2731,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 172,
@@ -2405,7 +2747,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 173,
@@ -2419,7 +2763,9 @@
   "gender": "Unisex",
   "concentration": "Extrait de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 174,
@@ -2433,7 +2779,9 @@
   "gender": "Unisex",
   "concentration": "Extrait de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 175,
@@ -2447,7 +2795,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 150,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "150 ml bottle"
  },
  {
   "id": 176,
@@ -2461,7 +2811,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 177,
@@ -2475,7 +2827,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 178,
@@ -2489,7 +2843,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 179,
@@ -2503,7 +2859,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 180,
@@ -2517,7 +2875,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 181,
@@ -2531,7 +2891,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 182,
@@ -2545,7 +2907,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 183,
@@ -2559,7 +2923,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 184,
@@ -2573,7 +2939,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 185,
@@ -2587,7 +2955,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 186,
@@ -2601,7 +2971,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 187,
@@ -2615,7 +2987,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 188,
@@ -2629,7 +3003,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 189,
@@ -2643,7 +3019,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 190,
@@ -2657,7 +3035,9 @@
   "gender": "Unisex",
   "concentration": "Extrait de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 191,
@@ -2671,7 +3051,9 @@
   "gender": "Unisex",
   "concentration": "Extrait de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 192,
@@ -2685,7 +3067,9 @@
   "gender": "Unisex",
   "concentration": "Extrait de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 193,
@@ -2699,7 +3083,9 @@
   "gender": "Unisex",
   "concentration": "Extrait de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 194,
@@ -2713,7 +3099,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 195,
@@ -2727,7 +3115,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 196,
@@ -2741,7 +3131,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 197,
@@ -2755,7 +3147,9 @@
   "gender": "Unisex",
   "concentration": "Extrait de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 198,
@@ -2769,7 +3163,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 80,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "80 ml bottle"
  },
  {
   "id": 199,
@@ -2783,7 +3179,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 200,
@@ -2797,7 +3195,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 80,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "80 ml bottle"
  },
  {
   "id": 201,
@@ -2811,7 +3211,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 80,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "80 ml bottle"
  },
  {
   "id": 202,
@@ -2825,7 +3227,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 80,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "80 ml bottle"
  },
  {
   "id": 203,
@@ -2839,7 +3243,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 204,
@@ -2853,7 +3259,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 205,
@@ -2867,7 +3275,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 80,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "80 ml bottle"
  },
  {
   "id": 206,
@@ -2881,7 +3291,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 207,
@@ -2895,7 +3307,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 208,
@@ -2909,7 +3323,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 209,
@@ -2923,7 +3339,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 210,
@@ -2937,7 +3355,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 211,
@@ -2951,7 +3371,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 212,
@@ -2965,7 +3387,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 213,
@@ -2979,7 +3403,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 214,
@@ -2993,7 +3419,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 215,
@@ -3007,7 +3435,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 216,
@@ -3021,7 +3451,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 200,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "200 ml bottle"
  },
  {
   "id": 217,
@@ -3035,7 +3467,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 125,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "125 ml bottle"
  },
  {
   "id": 218,
@@ -3049,7 +3483,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 200,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "200 ml bottle"
  },
  {
   "id": 219,
@@ -3063,7 +3499,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 75,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "75 ml bottle"
  },
  {
   "id": 220,
@@ -3077,7 +3515,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 221,
@@ -3091,7 +3531,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 60,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "60 ml bottle"
  },
  {
   "id": 222,
@@ -3105,7 +3547,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 60,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "60 ml bottle"
  },
  {
   "id": 223,
@@ -3119,7 +3563,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 224,
@@ -3133,7 +3579,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 60,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "60 ml bottle"
  },
  {
   "id": 225,
@@ -3147,7 +3595,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 60,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "60 ml bottle"
  },
  {
   "id": 226,
@@ -3161,7 +3611,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 60,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "60 ml bottle"
  },
  {
   "id": 227,
@@ -3175,7 +3627,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 60,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "60 ml bottle"
  },
  {
   "id": 228,
@@ -3189,7 +3643,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 229,
@@ -3203,7 +3659,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 230,
@@ -3217,7 +3675,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 231,
@@ -3231,7 +3691,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 25,
-  "type": "Set"
+  "type": "Set",
+  "units": 4,
+  "packaging": "Gift / discovery set · 4 × 25 ml"
  },
  {
   "id": 232,
@@ -3245,7 +3707,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 233,
@@ -3259,7 +3723,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 234,
@@ -3273,7 +3739,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 235,
@@ -3287,7 +3755,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 55,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "55 ml bottle"
  },
  {
   "id": 236,
@@ -3301,7 +3771,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 237,
@@ -3315,7 +3787,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 5,
-  "type": "Set"
+  "type": "Set",
+  "units": 5,
+  "packaging": "Gift / discovery set · 5 × 5 ml"
  },
  {
   "id": 238,
@@ -3329,7 +3803,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 239,
@@ -3343,7 +3819,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 240,
@@ -3357,7 +3835,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 241,
@@ -3371,7 +3851,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 242,
@@ -3385,7 +3867,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 243,
@@ -3399,7 +3883,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 244,
@@ -3413,7 +3899,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 245,
@@ -3427,7 +3915,9 @@
   "gender": "Unisex",
   "concentration": "Extrait de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 246,
@@ -3441,7 +3931,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 247,
@@ -3455,7 +3947,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 248,
@@ -3469,7 +3963,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 249,
@@ -3483,7 +3979,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 110,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "110 ml bottle"
  },
  {
   "id": 250,
@@ -3497,7 +3995,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 75,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "75 ml bottle"
  },
  {
   "id": 251,
@@ -3511,7 +4011,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 75,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "75 ml bottle"
  },
  {
   "id": 252,
@@ -3525,7 +4027,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 75,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "75 ml bottle"
  },
  {
   "id": 253,
@@ -3539,7 +4043,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 75,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "75 ml bottle"
  },
  {
   "id": 254,
@@ -3553,7 +4059,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 75,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "75 ml bottle"
  },
  {
   "id": 255,
@@ -3567,7 +4075,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 256,
@@ -3581,7 +4091,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 257,
@@ -3595,7 +4107,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 258,
@@ -3609,7 +4123,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 259,
@@ -3623,7 +4139,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 260,
@@ -3637,7 +4155,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 261,
@@ -3651,7 +4171,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 262,
@@ -3665,7 +4187,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 263,
@@ -3679,7 +4203,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 75,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "75 ml bottle"
  },
  {
   "id": 264,
@@ -3693,7 +4219,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 265,
@@ -3707,7 +4235,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 266,
@@ -3721,7 +4251,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 267,
@@ -3735,7 +4267,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 268,
@@ -3749,7 +4283,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 269,
@@ -3763,7 +4299,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 270,
@@ -3777,7 +4315,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 271,
@@ -3791,7 +4331,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 272,
@@ -3805,7 +4347,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 273,
@@ -3819,7 +4363,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 274,
@@ -3833,7 +4379,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 275,
@@ -3847,7 +4395,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 276,
@@ -3861,7 +4411,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 277,
@@ -3875,7 +4427,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 278,
@@ -3889,7 +4443,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 279,
@@ -3903,7 +4459,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 280,
@@ -3917,7 +4475,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 90,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "90 ml bottle"
  },
  {
   "id": 281,
@@ -3931,7 +4491,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 90,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "90 ml bottle"
  },
  {
   "id": 282,
@@ -3945,7 +4507,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 283,
@@ -3959,7 +4523,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 284,
@@ -3973,7 +4539,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 285,
@@ -3987,7 +4555,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 286,
@@ -4001,7 +4571,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 287,
@@ -4015,7 +4587,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 288,
@@ -4029,7 +4603,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 289,
@@ -4043,7 +4619,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 5,
-  "type": "Set"
+  "type": "Set",
+  "units": 4,
+  "packaging": "Gift / discovery set · 4 × 5 ml"
  },
  {
   "id": 290,
@@ -4057,7 +4635,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 291,
@@ -4071,7 +4651,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 20,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "20 ml bottle"
  },
  {
   "id": 292,
@@ -4085,7 +4667,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 293,
@@ -4099,7 +4683,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 20,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "20 ml bottle"
  },
  {
   "id": 294,
@@ -4113,7 +4699,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 295,
@@ -4127,7 +4715,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 296,
@@ -4141,7 +4731,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 80,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "80 ml bottle"
  },
  {
   "id": 297,
@@ -4155,7 +4747,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 298,
@@ -4169,7 +4763,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 299,
@@ -4183,7 +4779,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 300,
@@ -4197,7 +4795,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 301,
@@ -4211,7 +4811,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 302,
@@ -4225,7 +4827,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 303,
@@ -4239,7 +4843,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 80,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "80 ml bottle"
  },
  {
   "id": 304,
@@ -4253,7 +4859,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 305,
@@ -4267,7 +4875,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 306,
@@ -4281,7 +4891,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 307,
@@ -4295,7 +4907,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 308,
@@ -4309,7 +4923,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 309,
@@ -4323,7 +4939,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 310,
@@ -4337,7 +4955,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 311,
@@ -4351,7 +4971,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 312,
@@ -4365,7 +4987,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 313,
@@ -4379,7 +5003,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 314,
@@ -4393,7 +5019,9 @@
   "gender": "Unisex",
   "concentration": "Extrait de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 315,
@@ -4407,7 +5035,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 316,
@@ -4421,7 +5051,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 25,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "25 ml bottle"
  },
  {
   "id": 317,
@@ -4435,7 +5067,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 318,
@@ -4449,7 +5083,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 319,
@@ -4463,7 +5099,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 25,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "25 ml bottle"
  },
  {
   "id": 320,
@@ -4477,7 +5115,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 321,
@@ -4491,7 +5131,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 322,
@@ -4505,7 +5147,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 323,
@@ -4519,7 +5163,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 324,
@@ -4533,7 +5179,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 200,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "200 ml bottle"
  },
  {
   "id": 325,
@@ -4547,7 +5195,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 50,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "50 ml bottle"
  },
  {
   "id": 326,
@@ -4561,7 +5211,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 327,
@@ -4575,7 +5227,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 50,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "50 ml bottle"
  },
  {
   "id": 328,
@@ -4589,7 +5243,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 329,
@@ -4603,7 +5259,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 330,
@@ -4617,7 +5275,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 85,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "85 ml bottle"
  },
  {
   "id": 331,
@@ -4631,7 +5291,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 15,
-  "type": "Set"
+  "type": "Set",
+  "units": 8,
+  "packaging": "Gift / discovery set · 8 × 15 ml"
  },
  {
   "id": 332,
@@ -4645,7 +5307,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 333,
@@ -4659,7 +5323,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 80,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "80 ml bottle"
  },
  {
   "id": 334,
@@ -4673,7 +5339,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 335,
@@ -4687,7 +5355,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 336,
@@ -4701,7 +5371,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 337,
@@ -4715,7 +5387,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 338,
@@ -4729,7 +5403,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 339,
@@ -4743,7 +5419,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 340,
@@ -4757,7 +5435,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 341,
@@ -4771,7 +5451,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 342,
@@ -4785,7 +5467,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 343,
@@ -4799,7 +5483,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 344,
@@ -4813,7 +5499,9 @@
   "gender": "Men",
   "concentration": "Eau de Toilette",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 345,
@@ -4827,7 +5515,9 @@
   "gender": "Men",
   "concentration": "Eau de Toilette",
   "size": 50,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "50 ml bottle"
  },
  {
   "id": 346,
@@ -4841,7 +5531,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 50,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "50 ml bottle"
  },
  {
   "id": 347,
@@ -4855,7 +5547,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 348,
@@ -4869,7 +5563,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 349,
@@ -4883,7 +5579,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 350,
@@ -4897,7 +5595,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 351,
@@ -4911,7 +5611,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 352,
@@ -4925,7 +5627,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 353,
@@ -4939,7 +5643,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 354,
@@ -4953,7 +5659,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 355,
@@ -4967,7 +5675,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 15,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "15 ml bottle"
  },
  {
   "id": 356,
@@ -4981,7 +5691,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 357,
@@ -4995,7 +5707,9 @@
   "gender": "Unisex",
   "concentration": "Extrait de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 358,
@@ -5009,7 +5723,9 @@
   "gender": "Unisex",
   "concentration": "Extrait de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 359,
@@ -5023,7 +5739,9 @@
   "gender": "Unisex",
   "concentration": "Extrait de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 360,
@@ -5037,7 +5755,9 @@
   "gender": "Unisex",
   "concentration": "Extrait de Parfum",
   "size": 50,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "50 ml bottle"
  },
  {
   "id": 361,
@@ -5051,7 +5771,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 75,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "75 ml bottle"
  },
  {
   "id": 362,
@@ -5065,7 +5787,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 75,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "75 ml bottle"
  },
  {
   "id": 363,
@@ -5079,7 +5803,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 75,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "75 ml bottle"
  },
  {
   "id": 364,
@@ -5093,7 +5819,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 75,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "75 ml bottle"
  },
  {
   "id": 365,
@@ -5107,7 +5835,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 75,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "75 ml bottle"
  },
  {
   "id": 366,
@@ -5121,7 +5851,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 75,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "75 ml bottle"
  },
  {
   "id": 367,
@@ -5135,7 +5867,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 75,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "75 ml bottle"
  },
  {
   "id": 368,
@@ -5149,7 +5883,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 75,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "75 ml bottle"
  },
  {
   "id": 369,
@@ -5163,7 +5899,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 75,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "75 ml bottle"
  },
  {
   "id": 370,
@@ -5177,7 +5915,9 @@
   "gender": "Unisex",
   "concentration": "Extrait de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 371,
@@ -5191,7 +5931,9 @@
   "gender": "Unisex",
   "concentration": "Extrait de Parfum",
   "size": 50,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "50 ml bottle"
  },
  {
   "id": 372,
@@ -5205,7 +5947,9 @@
   "gender": "Unisex",
   "concentration": "Extrait de Parfum",
   "size": 50,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "50 ml bottle"
  },
  {
   "id": 373,
@@ -5219,7 +5963,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 30,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "30 ml bottle"
  },
  {
   "id": 374,
@@ -5233,7 +5979,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 30,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "30 ml bottle"
  },
  {
   "id": 375,
@@ -5247,7 +5995,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 50,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "50 ml bottle"
  },
  {
   "id": 376,
@@ -5261,7 +6011,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 30,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "30 ml bottle"
  },
  {
   "id": 377,
@@ -5275,7 +6027,9 @@
   "gender": "Men",
   "concentration": "Eau de Toilette",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 378,
@@ -5289,7 +6043,9 @@
   "gender": "Men",
   "concentration": "Eau de Toilette",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 379,
@@ -5303,7 +6059,9 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 30,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "30 ml bottle"
  },
  {
   "id": 380,
@@ -5317,7 +6075,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 381,
@@ -5331,7 +6091,9 @@
   "gender": "Men",
   "concentration": "Eau de Parfum",
   "size": 200,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "200 ml bottle"
  },
  {
   "id": 382,
@@ -5345,7 +6107,9 @@
   "gender": "Unisex",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 383,
@@ -5359,7 +6123,9 @@
   "gender": "Unisex",
   "concentration": "Extrait de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 384,
@@ -5373,7 +6139,9 @@
   "gender": "Men",
   "concentration": "Extrait de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  },
  {
   "id": 385,
@@ -5387,6 +6155,8 @@
   "gender": "Women",
   "concentration": "Eau de Parfum",
   "size": 100,
-  "type": "Fragrance"
+  "type": "Fragrance",
+  "units": 1,
+  "packaging": "100 ml bottle"
  }
 ]

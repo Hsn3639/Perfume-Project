@@ -154,6 +154,15 @@
       </div>
     </div>
 
+    <!-- Shop by brand directory -->
+    <div class="brand-directory">
+      <div class="brand-directory__head">
+        <h3>Shop by brand</h3>
+        <span><b id="brandDirCount">—</b> houses · tap a brand to view its full range</span>
+      </div>
+      <div class="brand-directory__grid" id="brandDirectory"></div>
+    </div>
+
     <div class="catalogue__layout">
       <!-- Filters -->
       <aside class="filters" id="filters" aria-label="Filters">
@@ -225,6 +234,7 @@
                 <option value="stock-desc">Stock high → low</option>
               </select>
             </label>
+            <button class="ghost-btn" id="groupBrandBtn" aria-pressed="false" title="Group products under brand headings">⬚ Group by brand</button>
             <div class="view-toggle" role="group" aria-label="View">
               <button data-view="grid" class="is-active" id="viewGrid" title="Grid view">▦</button>
               <button data-view="list" id="viewList" title="List view">≣</button>
@@ -235,6 +245,7 @@
         <div class="active-filters" id="activeFilters"></div>
 
         <div class="product-grid" id="productGrid" aria-live="polite"></div>
+        <div id="brandGroups" aria-live="polite"></div>
 
         <div class="empty" id="emptyState" hidden>
           <p>No references match your filters.</p>

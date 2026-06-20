@@ -33,6 +33,7 @@
     inStockOnly: false,
     sort: "featured",
     view: "grid",
+    groupByBrand: false,
     shown: PAGE_SIZE,
   };
 
@@ -123,8 +124,9 @@
           <div class="card__brand">${p.brand}</div>
           <div class="card__title" data-detail="${p.id}">${p.title.replace(p.brand, "").trim() || p.title}</div>
           <div class="card__meta">
-            <span>${p.concentration}</span>${p.size ? `<span>${p.size} ml</span>` : ""}
+            <span>${p.concentration}</span>${p.size ? `<span>${p.size} ml</span>` : ""}${p.units > 1 ? `<span class="card__meta--pack">Pack of ${p.units}</span>` : ""}
           </div>
+          <div class="card__pack">${p.packaging}</div>
           <div class="card__ean">EAN ${p.ean || "—"}</div>
         </div>
         <div class="card__foot">
@@ -144,12 +146,62 @@
   function renderCatalogue() {
     const list = applyFilters();
     $("#resultsCount").textContent = `${list.length} reference${list.length === 1 ? "" : "s"}`;
-    const slice = list.slice(0, state.shown);
-    grid.className = "product-grid" + (state.view === "list" ? " is-list" : "");
-    grid.innerHTML = slice.map(cardHTML).join("");
+    const gridClass = "product-grid" + (state.view === "list" ? " is-list" : "");
+    const groups = $("#brandGroups");
+
+    if (state.groupByBrand) {
+      // Group every matching product under its brand heading (no pagination).
+      grid.innerHTML = "";
+      grid.hidden = true;
+      groups.hidden = false;
+      const byBrand = {};
+      list.forEach((p) => { (byBrand[p.brand] = byBrand[p.brand] || []).push(p); });
+      const brands = Object.keys(byBrand).sort((a, b) => a.localeCompare(b));
+      groups.innerHTML = brands.map((b) => `
+        <section class="brand-section" id="brand-${cssId(b)}">
+          <div class="brand-section__head">
+            <h3>${b}</h3>
+            <span>${byBrand[b].length} reference${byBrand[b].length === 1 ? "" : "s"}</span>
+          </div>
+          <div class="${gridClass}">${byBrand[b].map(cardHTML).join("")}</div>
+        </section>`).join("");
+      $("#loadMoreBtn").hidden = true;
+    } else {
+      groups.hidden = true;
+      groups.innerHTML = "";
+      grid.hidden = false;
+      const slice = list.slice(0, state.shown);
+      grid.className = gridClass;
+      grid.innerHTML = slice.map(cardHTML).join("");
+      $("#loadMoreBtn").hidden = list.length <= state.shown;
+    }
     $("#emptyState").hidden = list.length !== 0;
-    $("#loadMoreBtn").hidden = list.length <= state.shown;
     renderActiveFilters();
+  }
+
+  const cssId = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+
+  /* ---------- Brand directory ---------- */
+  function renderBrandDirectory() {
+    const el = $("#brandDirectory");
+    if (!el) return;
+    $("#brandDirCount").textContent = BRANDS.length;
+    el.innerHTML = BRANDS.map(([b, c]) =>
+      `<button class="brand-tile" data-brand="${b.replace(/"/g, "&quot;")}">
+        <span class="brand-tile__name">${b}</span>
+        <span class="brand-tile__count">${c} ref${c === 1 ? "" : "s"}</span>
+      </button>`).join("");
+    el.addEventListener("click", (e) => {
+      const btn = e.target.closest("[data-brand]");
+      if (!btn) return;
+      const brand = btn.dataset.brand;
+      state.brands.clear();
+      state.brands.add(brand);
+      state.shown = PAGE_SIZE;
+      syncFilterUI();
+      renderCatalogue();
+      $(".catalogue__layout").scrollIntoView({ behavior: "smooth", block: "start" });
+    });
   }
 
   /* ---------- Active filter tags ---------- */
@@ -229,19 +281,22 @@
     $("#cartCount").style.display = lines ? "grid" : "grid";
   }
 
+  function reflectOnCards(id, inOrder) {
+    // A reference can appear in the grid or under a brand group — update all.
+    document.querySelectorAll(`.card[data-id="${id}"]`).forEach((card) => {
+      card.classList.toggle("in-order", inOrder);
+      const addBtn = card.querySelector("[data-add]");
+      if (addBtn) addBtn.textContent = inOrder ? "Update order" : "Add to order";
+    });
+  }
+
   function addToOrder(id, qty) {
     qty = Math.max(MIN_UNITS, Math.round(qty || MIN_UNITS));
     order[id] = qty;
     saveOrder();
     updateCartCount();
     renderCart();
-    // reflect on card
-    const card = grid.querySelector(`.card[data-id="${id}"]`);
-    if (card) {
-      card.classList.add("in-order");
-      const addBtn = card.querySelector("[data-add]");
-      if (addBtn) addBtn.textContent = "Update order";
-    }
+    reflectOnCards(id, true);
   }
 
   function removeFromOrder(id) {
@@ -249,12 +304,7 @@
     saveOrder();
     updateCartCount();
     renderCart();
-    const card = grid.querySelector(`.card[data-id="${id}"]`);
-    if (card) {
-      card.classList.remove("in-order");
-      const addBtn = card.querySelector("[data-add]");
-      if (addBtn) addBtn.textContent = "Add to order";
-    }
+    reflectOnCards(id, false);
   }
 
   function renderCart() {
@@ -387,8 +437,10 @@
             <div><dt>Gender</dt><dd>${p.gender}</dd></div>
             <div><dt>Concentration</dt><dd>${p.concentration}</dd></div>
             <div><dt>Size</dt><dd>${p.size ? p.size + " ml" : "—"}</dd></div>
-            <div><dt>Type</dt><dd>${p.type}</dd></div>
-            <div><dt>EAN</dt><dd>${p.ean || "—"}</dd></div>
+            <div><dt>Format</dt><dd>${p.type}</dd></div>
+            <div><dt>Packaging</dt><dd>${p.packaging}</dd></div>
+            <div><dt>Units per pack</dt><dd>${p.units}</dd></div>
+            <div><dt>EAN / barcode</dt><dd>${p.ean || "—"}</dd></div>
             <div><dt>Availability</dt><dd><span class="dot dot--${p.stockStatus}"></span> ${stockLabel(p)}</dd></div>
           </dl>
           <div class="pm__price">${money(p.price)} <small>per unit · excl. VAT · delivery calculated separately</small></div>
@@ -593,6 +645,13 @@
     $("#sortSelect").addEventListener("change", (e) => { state.sort = e.target.value; renderCatalogue(); });
     $("#viewGrid").addEventListener("click", () => { state.view = "grid"; $("#viewGrid").classList.add("is-active"); $("#viewList").classList.remove("is-active"); renderCatalogue(); });
     $("#viewList").addEventListener("click", () => { state.view = "list"; $("#viewList").classList.add("is-active"); $("#viewGrid").classList.remove("is-active"); renderCatalogue(); });
+    $("#groupBrandBtn").addEventListener("click", () => {
+      state.groupByBrand = !state.groupByBrand;
+      const btn = $("#groupBrandBtn");
+      btn.classList.toggle("is-active", state.groupByBrand);
+      btn.setAttribute("aria-pressed", state.groupByBrand ? "true" : "false");
+      renderCatalogue();
+    });
 
     // clear filters
     const clearAll = () => {
@@ -608,34 +667,34 @@
     // load more
     $("#loadMoreBtn").addEventListener("click", () => { state.shown += PAGE_SIZE; renderCatalogue(); });
 
-    // grid interactions (delegated)
-    grid.addEventListener("click", (e) => {
+    // card interactions (delegated) — attached to both the grid and the
+    // brand-grouped view so they work in either layout.
+    const onCardClick = (e) => {
       const detail = e.target.closest("[data-detail]");
       if (detail) { openDetail(Number(detail.dataset.detail)); return; }
       const stepBtn = e.target.closest("[data-step]");
       if (stepBtn) {
-        const wrap = stepBtn.closest("[data-qty]");
-        const input = wrap.querySelector("input");
+        const input = stepBtn.closest("[data-qty]").querySelector("input");
         let v = parseInt(input.value || MIN_UNITS, 10) + parseInt(stepBtn.dataset.step, 10);
-        v = Math.max(MIN_UNITS, v);
-        input.value = v;
+        input.value = Math.max(MIN_UNITS, v);
         return;
       }
       const addBtn = e.target.closest("[data-add]");
       if (addBtn) {
         const id = Number(addBtn.dataset.add);
-        const wrap = grid.querySelector(`[data-qty="${id}"]`);
+        const wrap = addBtn.closest(".card").querySelector(`[data-qty="${id}"]`);
         const qty = wrap ? parseInt(wrap.querySelector("input").value || MIN_UNITS, 10) : MIN_UNITS;
         addToOrder(id, qty);
         toast(`<b>${qty}</b> units added to your order`);
       }
-    });
-    grid.addEventListener("change", (e) => {
+    };
+    const onCardChange = (e) => {
       const input = e.target.closest("[data-qty] input");
-      if (input) {
-        let v = Math.max(MIN_UNITS, Math.round(+input.value || MIN_UNITS));
-        input.value = v;
-      }
+      if (input) input.value = Math.max(MIN_UNITS, Math.round(+input.value || MIN_UNITS));
+    };
+    [grid, $("#brandGroups")].forEach((el) => {
+      el.addEventListener("click", onCardClick);
+      el.addEventListener("change", onCardChange);
     });
 
     // product modal delegated add/step
@@ -737,6 +796,7 @@
     buildChips($("#concChips"), ALL_CONCS, state.concs);
     buildChips($("#sizeChips"), ALL_SIZES.map(String), state.sizes);
     buildBrandList();
+    renderBrandDirectory();
 
     wire();
     renderCatalogue();
