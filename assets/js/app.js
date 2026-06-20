@@ -656,6 +656,53 @@
     calcStrategy();
   }
 
+  /* ---------- Reinvestment & compounding ---------- */
+  function calcCompound() {
+    const start = Math.max(0, +$("#cmpStart").value || 0);
+    const mult = +$("#cmpMult").value || 2;
+    const turns = Math.max(1, Math.round(+$("#cmpTurns").value || 1));
+    const reinvest = (+$("#cmpReinvest").value || 0) / 100;
+
+    $("#cmpMultOut").textContent = "×" + mult.toFixed(1);
+    $("#cmpTurnsOut").textContent = turns;
+    $("#cmpReinvestOut").textContent = Math.round(reinvest * 100) + "%";
+
+    let capital = start, totalProfit = 0, drawn = 0;
+    const rows = [];
+    for (let i = 1; i <= turns; i++) {
+      const profit = capital * (mult - 1);
+      const reinv = profit * reinvest;
+      rows.push({ turn: i, capital, profit, reinv });
+      totalProfit += profit;
+      drawn += profit - reinv;
+      capital += reinv;
+    }
+    const endCapital = capital;
+    const yearEnd = start + totalProfit;          // working capital + income drawn
+    const roi = start > 0 ? (totalProfit / start) * 100 : 0;
+    const moneyX = start > 0 ? yearEnd / start : 0;
+
+    const kpis = [
+      { label: "Total profit / year", value: money(totalProfit), big: true },
+      { label: "Year-end position", value: money(yearEnd), sub: "capital + income", big: true },
+      { label: "Working capital grown", value: money(endCapital), sub: `from ${money(start)}` },
+      { label: "Income taken out", value: money(drawn), sub: reinvest >= 1 ? "all reinvested" : "drawn over year" },
+      { label: "Annual return", value: roi.toFixed(0) + "%", sub: "on starting order" },
+      { label: "Money multiple", value: "×" + moneyX.toFixed(2), sub: "year-end ÷ start" },
+    ];
+    $("#cmpKpis").innerHTML = kpis.map((k) =>
+      `<div class="cmp-kpi${k.big ? " cmp-kpi--big" : ""}">
+        <span class="cmp-kpi__label">${k.label}</span>
+        <strong class="cmp-kpi__value">${k.value}</strong>
+        ${k.sub ? `<span class="cmp-kpi__sub">${k.sub}</span>` : ""}
+      </div>`).join("");
+
+    $("#cmpTable").innerHTML =
+      `<thead><tr><th>Turn</th><th>Capital in</th><th>Profit</th><th>Reinvested</th></tr></thead>
+       <tbody>${rows.map((r) =>
+         `<tr><td>${r.turn}</td><td>${money(r.capital)}</td><td>${money(r.profit)}</td><td>${money(r.reinv)}</td></tr>`).join("")}</tbody>`;
+  }
+
   /* ---------- Toast ---------- */
   let toastTimer;
   function toast(msg) {
@@ -841,6 +888,9 @@
       $("#strategy").scrollIntoView({ behavior: "smooth", block: "start" });
     });
 
+    // reinvestment & compounding
+    ["#cmpStart", "#cmpMult", "#cmpTurns", "#cmpReinvest"].forEach((s) => $(s).addEventListener("input", calcCompound));
+
     // contact links
     $("#contactWhatsapp").href = `https://wa.me/${TRADE_WHATSAPP}`;
     $("#contactWhatsapp").target = "_blank";
@@ -876,6 +926,7 @@
     buildPacks();
     calcMargin();
     setStrategyMultiplier(2);
+    calcCompound();
   }
 
   document.addEventListener("DOMContentLoaded", init);

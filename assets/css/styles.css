@@ -349,6 +349,35 @@ button { font-family: inherit; cursor: pointer; }
 .strat-play p { margin: 0; font-size: .86rem; color: var(--text-invert-soft); line-height: 1.5; }
 .strat-play strong { color: var(--text-invert); font-weight: 500; }
 
+/* Reinvestment & compounding */
+.strat-compound { margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--line-dark); }
+.strat-compound__head { text-align: center; max-width: 720px; margin: 0 auto 1.6rem; }
+.strat-compound__head h3 { color: var(--gold-soft); font-size: 1.6rem; }
+.strat-compound__head p { color: var(--text-invert-soft); font-size: .9rem; margin: .5rem 0 0; }
+.strat-compound__controls { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.1rem; margin-bottom: 1.6rem; }
+.strat-compound__controls label { font-size: .7rem; letter-spacing: .1em; text-transform: uppercase; color: var(--text-invert-soft); display: flex; flex-direction: column; gap: .5rem; }
+.strat-compound__controls .input { background: var(--ink); border-color: var(--line-dark); color: var(--text-invert); }
+.cmp-range { display: flex; align-items: center; gap: .7rem; }
+.cmp-range input[type="range"] { flex: 1; accent-color: var(--gold); }
+.cmp-range output { font-family: var(--serif); font-size: 1.15rem; color: var(--gold-soft); min-width: 42px; text-align: right; }
+
+.strat-compound__out { display: grid; grid-template-columns: 1.1fr .9fr; gap: 1.5rem; align-items: start; }
+.cmp-kpis { display: grid; grid-template-columns: 1fr 1fr; gap: .8rem; }
+.cmp-kpi { background: var(--ink-2); border: 1px solid var(--line-dark); border-radius: var(--radius-sm); padding: 1rem; display: flex; flex-direction: column; gap: .15rem; }
+.cmp-kpi--big { border-color: var(--gold-deep); background: linear-gradient(150deg, rgba(184,146,78,.14), rgba(184,146,78,.03)); }
+.cmp-kpi__label { font-size: .64rem; letter-spacing: .1em; text-transform: uppercase; color: var(--text-invert-soft); }
+.cmp-kpi__value { font-family: var(--serif); font-size: 1.7rem; font-weight: 600; color: var(--gold-soft); line-height: 1.1; }
+.cmp-kpi--big .cmp-kpi__value { color: var(--text-invert); }
+.cmp-kpi__sub { font-size: .66rem; color: var(--text-invert-soft); }
+
+.cmp-table-wrap { background: var(--ink-2); border: 1px solid var(--line-dark); border-radius: var(--radius-sm); overflow: hidden; }
+.cmp-table { width: 100%; border-collapse: collapse; font-size: .8rem; }
+.cmp-table th { background: var(--ink); color: var(--text-invert-soft); font-size: .62rem; letter-spacing: .1em; text-transform: uppercase; font-weight: 500; padding: .6rem .8rem; text-align: right; }
+.cmp-table th:first-child { text-align: left; }
+.cmp-table td { padding: .5rem .8rem; text-align: right; color: var(--text-invert); border-top: 1px solid var(--line-dark); font-variant-numeric: tabular-nums; }
+.cmp-table td:first-child { text-align: left; color: var(--gold-soft); }
+.cmp-table tbody tr:nth-child(even) td { background: rgba(255,255,255,.02); }
+
 /* ============================================================ Catalogue */
 .catalogue { max-width: var(--maxw); margin: 0 auto; padding: 2rem 1.5rem 4rem; }
 .catalogue__head { margin-bottom: 1.8rem; }
@@ -722,6 +751,8 @@ details[open] summary.filter-label::after { content: "－"; }
   .bridge { grid-template-columns: 1fr; gap: 1.8rem; }
   .bridge__intro { position: static; }
   .strategy__grid { grid-template-columns: 1fr; gap: 1.8rem; }
+  .strat-compound__controls { grid-template-columns: 1fr 1fr; }
+  .strat-compound__out { grid-template-columns: 1fr; }
   .packs { grid-template-columns: 1fr; }
   .guide { grid-template-columns: 1fr; gap: 1.8rem; }
   .margin-calc { position: static; }
@@ -737,6 +768,8 @@ details[open] summary.filter-label::after { content: "－"; }
   .strat-calc__inputs { grid-template-columns: 1fr 1fr; }
   .strat-calc__inputs .ghost-btn { grid-column: 1 / -1; }
   .strat-results { grid-template-columns: 1fr 1fr; }
+  .strat-compound__controls { grid-template-columns: 1fr; }
+  .cmp-kpis { grid-template-columns: 1fr; }
   .hero__content { padding-top: 3.5rem; }
   .product-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: .9rem; }
   .product-grid.is-list .card { flex-direction: column; }

@@ -205,6 +205,37 @@
           <div class="strat-play"><span class="strat-play__tag">Bundling</span><p>Group bottles into gift sets or "build-your-3" offers to raise <strong>average order value</strong> and move slower lines at a healthy blended margin.</p></div>
         </div>
       </div>
+
+      <!-- Reinvestment & compounding -->
+      <div class="strat-compound">
+        <div class="strat-compound__head">
+          <h3>The turnover engine — reinvest &amp; compound</h3>
+          <p>A single markup doubles your money once. Rolling the profit back into the next order, several times a year, is how that "double" compounds. Model your year:</p>
+        </div>
+
+        <div class="strat-compound__controls">
+          <label>Starting order (€)
+            <input type="number" id="cmpStart" class="input" value="1500" min="0" step="100" />
+          </label>
+          <label>Sell price multiple
+            <div class="cmp-range"><input type="range" id="cmpMult" min="1.3" max="3" step="0.1" value="2" /><output id="cmpMultOut">×2.0</output></div>
+          </label>
+          <label>Stock turns / year
+            <div class="cmp-range"><input type="range" id="cmpTurns" min="1" max="12" step="1" value="4" /><output id="cmpTurnsOut">4</output></div>
+          </label>
+          <label>Profit reinvested
+            <div class="cmp-range"><input type="range" id="cmpReinvest" min="0" max="100" step="5" value="100" /><output id="cmpReinvestOut">100%</output></div>
+          </label>
+        </div>
+
+        <div class="strat-compound__out">
+          <div class="cmp-kpis" id="cmpKpis"></div>
+          <div class="cmp-table-wrap">
+            <table class="cmp-table" id="cmpTable"></table>
+          </div>
+        </div>
+        <p class="strat-disclaimer">Illustrative compounding model. Assumes each cycle fully sells through at the chosen multiple; excludes VAT, delivery, shrinkage and running costs. Not financial advice.</p>
+      </div>
     </div>
   </section>
 
