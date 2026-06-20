@@ -60,6 +60,25 @@ data/products.json         Catalogue as portable JSON (no cost prices)
 tools/build_catalogue.py   Regenerates the data files from a supplier .xlsx
 ```
 
+## Product images
+
+The site shows a photo for any product that has a file at `images/<EAN>.jpg`,
+and falls back to an elegant monogram tile when none exists. See
+[`images/README.md`](images/README.md) for naming and sourcing.
+
+To pull images in bulk, run the downloader on a machine that can reach the
+image source (your own computer — the build sandbox has no internet):
+
+```bash
+# from a CSV exported from your supplier (columns: ean, image_url)
+python3 tools/fetch_images.py --csv my_images.csv
+
+# or, if the supplier serves images by EAN in a fixed pattern
+python3 tools/fetch_images.py --template "https://cdn.supplier.com/img/{ean}.jpg"
+```
+
+It saves each image as `images/<EAN>.jpg`; commit and push and they go live.
+
 ## Updating prices / stock
 
 When you receive a new price list from the supplier (same column layout:
