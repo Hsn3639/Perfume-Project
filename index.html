@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="assets/css/styles.css?v=3" />
 </head>
 <body>
   <!-- Announcement bar -->
@@ -163,6 +163,7 @@
       <div class="strategy__grid">
         <!-- Calculator -->
         <div class="strat-calc">
+          <div class="panel-kicker">Margin calculator</div>
           <div class="strat-calc__inputs">
             <label>Total goods cost (€)
               <input type="number" id="stratCost" class="input" value="1500" min="0" step="50" />
@@ -197,6 +198,7 @@
 
         <!-- Strategies -->
         <div class="strat-plays">
+          <div class="panel-kicker">The playbook</div>
           <h3>Real strategies retailers use</h3>
           <div class="strat-play"><span class="strat-play__tag">Keystone pricing</span><p>The classic "double your money": set retail at <strong>2× cost</strong> (a 100% markup / 50% margin). Simple, fast, and the baseline most retail runs on.</p></div>
           <div class="strat-play"><span class="strat-play__tag">Blended / portfolio margin</span><p>Price off your <strong>average</strong> cost, not each bottle. Cheap lines subsidise premium ones, so a single clean shelf price still profits across the whole basket.</p></div>
@@ -209,6 +211,8 @@
 
       <!-- Reinvestment & compounding -->
       <div class="strat-compound">
+       <div class="strat-compound__panel">
+        <div class="panel-kicker">Compounding model</div>
         <div class="strat-compound__head">
           <h3>The turnover engine — reinvest &amp; compound</h3>
           <p>A single markup doubles your money once. Rolling the profit back into the next order, several times a year, is how that "double" compounds. Model your year:</p>
@@ -236,6 +240,7 @@
           </div>
         </div>
         <p class="strat-disclaimer">Illustrative compounding model. Assumes each cycle fully sells through at the chosen multiple; excludes VAT, delivery, shrinkage and running costs. Not financial advice.</p>
+       </div>
       </div>
     </div>
   </section>
@@ -538,7 +543,7 @@
 
   <div class="toast" id="toast" hidden></div>
 
-  <script src="assets/js/data.js"></script>
-  <script src="assets/js/app.js"></script>
+  <script src="assets/js/data.js?v=3"></script>
+  <script src="assets/js/app.js?v=3"></script>
 </body>
 </html>
