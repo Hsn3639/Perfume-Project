@@ -1,9 +1,9 @@
-# Maison Olfactive — Wholesale Fragrance Atelier
+# Melita Profumi — Wholesale Fragrance Atelier
 
-A professional, modern B2B website for wholesale perfume ordering, aimed at
-**first-time entrepreneurs and small retailers** who want to start a fragrance
-business without managing international suppliers, authentication, storage or
-shipping themselves.
+A professional, modern B2B website for wholesale perfume ordering, serving trade
+customers in **Malta and Italy**. It is aimed at **first-time entrepreneurs and
+small retailers** who want to start a fragrance business without managing
+international suppliers, authentication, storage or shipping themselves.
 
 The site is a self-contained static website (HTML/CSS/vanilla JS) — no build
 step, no framework, no backend required. It can be hosted on GitHub Pages,
@@ -75,15 +75,17 @@ python3 -m http.server 8000
 
 ## Before going live
 
-Update the placeholder contact details in `assets/js/app.js`:
+Confirm the contact details in `assets/js/app.js`:
 
 ```js
-const TRADE_EMAIL    = "trade@maisonolfactive.example";
-const TRADE_WHATSAPP = "000000000000"; // international format, digits only
+const TRADE_EMAIL    = "trade@melitaprofumi.com";   // update to your real inbox
+const TRADE_WHATSAPP = "35677590566";               // +356 7759 0566, digits only
+const TRADE_PHONE    = "+356 7759 0566";
 ```
 
-The brand name *Maison Olfactive* is a placeholder — replace it in `index.html`
-and the page title with your real business name and details.
+The WhatsApp/phone number (+356 7759 0566) is live. The email address is a
+sensible default based on the business name — point it at your real inbox (and
+register the matching domain) before launch.
 
 > Designer/house brand names are listed only to identify genuine stock and
 > remain the property of their respective owners.

@@ -1,5 +1,5 @@
 /* ============================================================
-   Maison Olfactive — wholesale catalogue & ordering logic
+   Melita Profumi — wholesale catalogue & ordering logic
    ============================================================ */
 (function () {
   "use strict";
@@ -12,8 +12,9 @@
   const PAGE_SIZE = 24;
 
   // Trade desk contact (placeholders — update to real details)
-  const TRADE_EMAIL = "trade@maisonolfactive.example";
-  const TRADE_WHATSAPP = "000000000000"; // international format, digits only
+  const TRADE_EMAIL = "trade@melitaprofumi.com";
+  const TRADE_WHATSAPP = "35677590566"; // international format, digits only
+  const TRADE_PHONE = "+356 7759 0566"; // display format
 
   const $ = (s, ctx = document) => ctx.querySelector(s);
   const $$ = (s, ctx = document) => Array.from(ctx.querySelectorAll(s));
@@ -326,7 +327,7 @@
 
   function buildOrderText() {
     const rows = orderRows();
-    let t = "MAISON OLFACTIVE — WHOLESALE ORDER REQUEST\n";
+    let t = "MELITA PROFUMI — WHOLESALE ORDER REQUEST\n";
     t += "Date: " + new Date().toLocaleDateString("en-GB") + "\n";
     t += "Lead time: " + CFG.leadTimeWeeks + " weeks\n";
     t += "----------------------------------------\n";
@@ -353,14 +354,14 @@
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
-    a.download = `maison-olfactive-order-${new Date().toISOString().slice(0, 10)}.csv`;
+    a.download = `melita-profumi-order-${new Date().toISOString().slice(0, 10)}.csv`;
     a.click();
     URL.revokeObjectURL(url);
     toast("Order CSV downloaded");
   }
 
   function submitEmail() {
-    const subject = encodeURIComponent("Wholesale order request — Maison Olfactive");
+    const subject = encodeURIComponent("Wholesale order request — Melita Profumi");
     const body = encodeURIComponent(buildOrderText() + "\n\nMy business details:\nCompany:\nVAT no.:\nDelivery address:\nContact:");
     window.location.href = `mailto:${TRADE_EMAIL}?subject=${subject}&body=${body}`;
   }
@@ -710,9 +711,9 @@
     ["#mcCost", "#mcRetail", "#mcUnits"].forEach((s) => $(s).addEventListener("input", calcMargin));
 
     // contact links
-    $("#contactEmail").href = `mailto:${TRADE_EMAIL}?subject=${encodeURIComponent("Trade account enquiry")}`;
     $("#contactWhatsapp").href = `https://wa.me/${TRADE_WHATSAPP}`;
     $("#contactWhatsapp").target = "_blank";
+    $("#contactPhone").href = `tel:${TRADE_PHONE.replace(/\s/g, "")}`;
 
     // escape closes overlays
     document.addEventListener("keydown", (e) => {
